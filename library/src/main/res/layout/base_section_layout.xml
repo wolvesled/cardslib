@@ -18,10 +18,14 @@
   ~  *****************************************************************************
   -->
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
-          android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              style="@style/card_section_container">
 
-    <item android:state_activated="true" android:drawable="@drawable/activated_foreground_kitkat_card"/>
-    <item android:state_pressed="true" android:drawable="@drawable/pressed_background_kitkat_card"/>
-    <item android:drawable="@android:color/transparent"/>
-</selector>
+
+    <TextView
+        android:id="@+id/card_section_simple_title"
+        style="@style/card_section_title"
+        />
+
+</LinearLayout>

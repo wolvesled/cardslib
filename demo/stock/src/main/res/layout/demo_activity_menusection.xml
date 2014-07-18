@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ *******************************************************************************
   ~   Copyright (c) 2013-2014 Gabriele Mariotti.
@@ -18,10 +17,14 @@
   ~  *****************************************************************************
   -->
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
-          android:exitFadeDuration="@android:integer/config_mediumAnimTime">
-
-    <item android:state_activated="true" android:drawable="@drawable/activated_foreground_kitkat_card"/>
-    <item android:state_pressed="true" android:drawable="@drawable/pressed_background_kitkat_card"/>
-    <item android:drawable="@android:color/transparent"/>
-</selector>
+   <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:textColor="@color/demo_title_section_textcolor"
+        android:background="@color/card_base_cardwithlist_divider_color"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textStyle="bold" />

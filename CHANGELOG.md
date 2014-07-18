@@ -1,6 +1,14 @@
 Change Log
 ===============================================================================
 
+Version 1.8.0 *(2014-07-14)*
+----------------------------
+* LIB: Added a `SectionedCardAdapter` which allows to display a `CardList` with Sections [(doc)](/doc/CARDLIST.md#sectionedcardlist)
+* LIB: Added a parameter to customize the swipe action [(doc)](/doc/CARDLIST.md#swipe-and-undo-in-cardlistview)
+* LIB: Fixed the CAB feature with the ForegroundLinearLayout
+* DEMO: Added an example with `SectionedCardAdapter`
+
+
 Version 1.7.3 *(2014-06-20)*
 ----------------------------
 * LIB: Removed labels app_name to prevent issue with the new Manifest merger
